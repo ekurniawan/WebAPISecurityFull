@@ -18,6 +18,12 @@ Namespace Controllers
             Dim token = CType(Session("token_pengguna"), Token)
             Dim results = myServices.GetAll(token.access_token)
 
+            'Dim ranking As Integer = 1
+            'For Each myData As Mahasiswa In results
+            '    Update(ranking, myData.Nim)
+            '    ranking = ranking + 1
+            'Next
+
             Return View(results)
         End Function
 
