@@ -3,7 +3,7 @@
 End Code
 
 <h2>Form Login</h2>
-
+@ViewBag.Error<br />
 <form action="@Url.Action("FormLogin")" method="post">
     <label for="Username">Username :</label><br />
     <input type="text" name="Username" value="" /><br /><br />

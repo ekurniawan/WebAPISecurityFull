@@ -17,6 +17,7 @@ Namespace Controllers
             End If
             Dim token = CType(Session("token_pengguna"), Token)
             Dim results = myServices.GetAll(token.access_token)
+
             Return View(results)
         End Function
 

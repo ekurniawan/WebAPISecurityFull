@@ -252,7 +252,7 @@
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
     <Content Include="Views\Values\Index.vbhtml" />
-    <Content Include="Views\Values\CekLogin.vbhtml" />
+    <Content Include="Views\Values\FormLogin.vbhtml" />
     <Content Include="Views\Mahasiswa\Index.vbhtml" />
   </ItemGroup>
   <ItemGroup>
